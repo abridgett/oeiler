@@ -8,8 +8,7 @@ from xml.etree import ElementTree as ET
 #oeiler.getxml_legal('chris.xml')
 #tree = ET.parse('chris.xml')
 
-#oeiler.getxml_all('all.xml')
-
+oeiler.getxml_all('all.xml')
 tree = ET.parse('all.xml')
 
 root = tree.getroot()
